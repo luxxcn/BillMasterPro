@@ -1,14 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   BMPCalculatorSetting.plist
-   BillMasterPro
-
-   Created by 星 鲁 on 2017/12/21.
-   Copyright (c) 2017年 xxing. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>sections</key>
+	<array>
+		<dict>
+			<key>rows</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>discountDate</string>
+					<key>class</key>
+					<string>BMPDateCell</string>
+					<key>label</key>
+					<string>贴现日期</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>endDate</string>
+					<key>class</key>
+					<string>BMPDateCell</string>
+					<key>label</key>
+					<string>到期日期</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>monthly</string>
+					<key>class</key>
+					<string>BMPRateCell</string>
+					<key>label</key>
+					<string>月利率</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>money</string>
+					<key>class</key>
+					<string>BMPAmountCell</string>
+					<key>label</key>
+					<string>票面金额</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>adjustDays</string>
+					<key>class</key>
+					<string>BMPNumberCell</string>
+					<key>label</key>
+					<string>调整天数</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>serviceCharge</string>
+					<key>class</key>
+					<string>BMPDateCell</string>
+					<key>label</key>
+					<string>手续费</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>buttons</string>
+					<key>class</key>
+					<string>BMPButtonCell</string>
+					<key>label</key>
+					<string>按钮</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>days</string>
+					<key>class</key>
+					<string>BMPNumberCell</string>
+					<key>label</key>
+					<string>计息天数</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>discountPer10</string>
+					<key>class</key>
+					<string>BMPAmountCell</string>
+					<key>label</key>
+					<string>每十万贴息</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>discount</string>
+					<key>class</key>
+					<string>BMPDiscountCell</string>
+					<key>label</key>
+					<string>贴现利息</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>remaindMoney</string>
+					<key>class</key>
+					<string>BMPAmountCell</string>
+					<key>label</key>
+					<string>剩余本金</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
 </plist>

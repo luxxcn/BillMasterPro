@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		337BD99C1FEE324200BE4C37 /* BMPConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BD99B1FEE324200BE4C37 /* BMPConfiguration.swift */; };
 		33B8CFD81FEBD45000AF9ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8CFD71FEBD45000AF9ACC /* AppDelegate.swift */; };
 		33B8CFDA1FEBD45000AF9ACC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8CFD91FEBD45000AF9ACC /* FirstViewController.swift */; };
 		33B8CFDC1FEBD45000AF9ACC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8CFDB1FEBD45000AF9ACC /* SecondViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		337BD99B1FEE324200BE4C37 /* BMPConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMPConfiguration.swift; sourceTree = "<group>"; };
 		33B8CFD41FEBD45000AF9ACC /* BillMasterPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillMasterPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B8CFD71FEBD45000AF9ACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33B8CFD91FEBD45000AF9ACC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		337BD99A1FEE30B000BE4C37 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				337BD99B1FEE324200BE4C37 /* BMPConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		33B8CFCB1FEBD45000AF9ACC = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +115,7 @@
 		33B8CFD61FEBD45000AF9ACC /* BillMasterPro */ = {
 			isa = PBXGroup;
 			children = (
+				337BD99A1FEE30B000BE4C37 /* Configuration */,
 				33B8D0071FEBD8EC00AF9ACC /* Calculator */,
 				33B8CFD71FEBD45000AF9ACC /* AppDelegate.swift */,
 				33B8CFD91FEBD45000AF9ACC /* FirstViewController.swift */,
@@ -284,6 +295,7 @@
 				33B8D0091FEBD93300AF9ACC /* BMPCalculatorController.swift in Sources */,
 				33B8CFD81FEBD45000AF9ACC /* AppDelegate.swift in Sources */,
 				33BDC41E1FEBE7A50087D7F8 /* BMPCalculatorCell.swift in Sources */,
+				337BD99C1FEE324200BE4C37 /* BMPConfiguration.swift in Sources */,
 				33B8CFDA1FEBD45000AF9ACC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
